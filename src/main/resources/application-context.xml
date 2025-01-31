@@ -5,6 +5,10 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define a simple bean -->
-    <bean id="test" class="org.subham.Test" scope ="prototype"/>
-    <bean id="test1" class="org.subham.Test" />
+
+    <bean id="test" class="org.subham.Test"/>
+
+
+
+    <bean id="testChild" class="org.subham.TestChild" />
 </beans>
